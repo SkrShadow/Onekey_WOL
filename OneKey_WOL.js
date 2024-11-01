@@ -1,4 +1,4 @@
-var body="token={你的访问密钥}&pc={目标计算机的ID}"; 
+var body="token={你的访问密钥}&id={目标计算机的ID}&password={WOL密码}"; 
 var headers={
         'Host': 'api.natfrp.com',
         'Connection': 'keep-alive',
@@ -11,10 +11,10 @@ var headers={
         'Cookie' : '',
         'Accept-Language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7'
 	};
-var apply = http.request("https://api.natfrp.com/v1/pc/poweron",
+var apply = http.request("https://api.natfrp.com/v4/computer/poweron",
 {
     body:body,
     headers:headers,
     method:'POST',
 });
-toast("尝试开机完成");
+toast("WOL请求已发送");
