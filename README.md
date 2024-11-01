@@ -3,6 +3,6 @@
 
 点击[这里](https://doc.natfrp.com/app/wol.html)了解如何在你的网关或路由器上配置Frp。
 
-
+已更新到最新的V4 API，如果建立隧道的时候未设置密码，请注释第一行内容，并将第二行被注释的内容解除注释。
 
 灵感来源于[Jay哥](https://github.com/Jayjjjjj)的某一键执行项目。
