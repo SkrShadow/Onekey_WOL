@@ -1,4 +1,5 @@
 var body="token={你的访问密钥}&id={目标计算机的ID}&password={WOL密码}"; 
+// var body="token={你的访问密钥}&id={目标计算机的ID}"; 
 var headers={
         'Host': 'api.natfrp.com',
         'Connection': 'keep-alive',
